@@ -18,10 +18,10 @@ CONFIG = Config({
     'UPLOAD_MAX_SIZE' : 2000 * 1024 * 1024,
     'UPLOAD_AS_DOC' : 0,
     'UPLOAD_AS_ZIP' : 0,
-    'ARIA2_DIR' : 'downloads',
+    'ARIA2_DIR' : '/downloads',
     'TORRENT_TRACKER' : '',
     'BAR_SIZE' : 10,
-    'THUMBNAIL_NAME' : 'default_thumbnail.jpg',
+    'THUMBNAIL_NAME' : '',
     'LOCAL' : 'en'
 })
 
